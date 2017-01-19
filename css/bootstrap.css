@@ -1,0 +1,41 @@
+span[lang="zh"] {
+    color: goldenrod;
+}
+
+/*adjacent sibling selector CSS3*/
+span:first-of-type + span {
+    color:red;
+}
+
+/*~ 指定元素后同级的所有后面的指定的元素*/
+p ~ span{
+    color:green;
+}
+
+div ~ span{
+    color:royalblue;
+}
+.selector2 li:first-child {
+    color: red;
+}
+
+.selector2 li:last-child {
+    color: green;
+}
+
+.pseudo:before {
+    content:"before";
+    color:red
+}
+
+.order li:nth-child(1):before{
+    content:"第一名";
+    color:red
+}
+.order li:nth-child(2):before{
+    content:"第二名";
+    color:black
+}.order li:nth-child(3):before{
+     content:"第三名";
+     color:cadetblue
+ }
