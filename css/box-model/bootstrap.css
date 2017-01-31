@@ -1,0 +1,13 @@
+.box {
+  width: 682px;
+  padding:2em;
+  margin:2em auto;
+  background-color: darkcyan;
+  border:5px solid #555555;
+}
+
+.box img{
+  padding:1em;
+  background-color: #fff;
+}
+
