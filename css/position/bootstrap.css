@@ -1,0 +1,14 @@
+
+.container {
+    width:30em;
+    margin:10% auto;
+    padding:3em;
+    background-color: #cccccc;
+}
+
+#two{
+    position:relative;
+    top:30px;
+    left:20px;
+}
+
