@@ -11,3 +11,6 @@
   background-color: #fff;
 }
 
+abbr[title]{
+  margin-top:0.5em;
+}
